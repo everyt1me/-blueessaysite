@@ -170,4 +170,51 @@
     p {
         @include fonts(15px, $font-m, 400, $d3-p4)
     }
+
+    input {
+        width: 95%;
+        height: 50px;
+        border: 1px solid #d8dadb;
+        background-color: #f6f9f9;
+        padding: 0 10px;
+    }
+
+    
+    input:active {
+        box-shadow: inset 0 0 5px rgba(15, 139, 204, 0.4);
+        border: 1px solid #03a9f4;
+        background-color: #ffffff;
+    }
+}
+
+.input-text:hover {
+    input {
+        border: 1px solid #d8dadb;
+        background-color: #ffffff;
+    }
+
+    label {
+        background-color: #03a9f4;
+        padding: 0 3px;
+    }
+}
+
+.number-of-pages input {
+    width: 57%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-left: 1px solid #d8dadb;
+    border-right: 1px solid #d8dadb;
+}
+
+.selector button {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.selector {
+    border: 1px solid #d8dadb;
 }
